@@ -78,3 +78,8 @@ print("El valor de r_square para un polinomio de grado 3 es", r2)
 
 """Ejercicio en clase"""
 
+x=[10,10,10,10,10,50,50,50,50,50]
+y=[13,18,16,15,20,86,90,88,88,92]
+
+
+#Checa las fotos del dia . _.
