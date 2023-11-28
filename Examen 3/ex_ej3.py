@@ -1,9 +1,9 @@
 import numpy as np
 from scipy.stats import f_oneway
 
-"""Resultados
-Estadístico de ANOVA: 6.5865080964859235
-Valor p: 0.001497104486931074
+"""Resultados EJ3S
+ANOVA: 6.5865080964859235
+P: 0.001497104486931074
 Se rechaza la hipótesis nula
 Hay evidencia de que las marcas proporcionan diferentes números medios de horas de alivio.
 """
@@ -20,8 +20,8 @@ statistic, p_value = f_oneway(*tabla_data.T)
 
 nivel_significancia = 0.05
 
-print(f"Estadístico de ANOVA: {statistic}")
-print(f"Valor p: {p_value}")
+print(f"ANOVA: {statistic}")
+print(f"P: {p_value}")
 
 if p_value < nivel_significancia:
     print("Se rechaza la hipótesis nula\nHay evidencia de que las marcas proporcionan diferentes números medios de horas de alivio.")
