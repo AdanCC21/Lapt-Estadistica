@@ -1,6 +1,6 @@
 from scipy.stats import chi2_contingency
 
-"""Resultados
+"""Resultados EJ2
 Valor Estadistico Chi-cuadrado: 4.526243118294752
 P: 0.03337881746687282
 Grados de libertad: 1
